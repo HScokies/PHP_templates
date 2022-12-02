@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    font-size: calc(.7vmin + .7vmax + .7vh);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vmin;
+}
+.header >h1{
+    font-size: calc(1vmin + 1vmax + 1vh) !important;
+}
+.footer >p{
+    position: fixed;
+    bottom: 3px;
+    width: 100%;
+    font-size: calc(1vmin + 1vmax + 1vh) !important;
+}
+.main-content .categories ul{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vmin;
+    margin:3vmin 0;
+}
+.main-content .categories ul li a{
+    text-decoration: none;
+}
+.main-content .catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 3vmin;
+}
+.main-content .catalog .card{
+    outline: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1vmin;
+}
+.main-content .catalog .card a{
+    text-decoration: none;
+}
+.main-content .catalog .card p{
+    font-weight: bold;
+}
+.main-content .catalog .card img{
+    width: 15vmax;
+    height: 15vmax;
+}
+
+.main-content .product .thumbnail{
+ width: 25vmax !important;
+}
